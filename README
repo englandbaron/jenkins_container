@@ -2,8 +2,16 @@
 The Jenkins running by docker compose with pre-installation Plugins
 
 # User Manual
-UserName: `admin`
-Password: `admin`
+
+docker-compose up -d
+browser vist: 127.0.0.1:9091
+----------------------------
+!!! Skip Plugins Installation
+----------------------------
+docker-compose down
+cp plugins/* jenkins_container_data/plugins/
+docker-compose up -d
+
 
 # Platform Support
  - MacOSx
