@@ -1,0 +1,10 @@
+# Introduction
+The Jenkins running by docker compose with pre-installation Plugins
+
+# User Manual
+UserName: `admin`
+Password: `admin`
+
+# Platform Support
+ - MacOSx
+
